@@ -19,7 +19,7 @@ public class zad4 : MonoBehaviour
     void Update()
     {
         // pobieramy wartości dla obu osi ruchu myszy
-    // Update is called once per frame
+        // Update is called once per frame
         float mouseXMove = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
          mouseYMove += Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
        
